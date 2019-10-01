@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TranslateActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="@string/text_choose" />
+
+        <Button
+            android:id="@+id/btnFrench"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_french" />
+
+        <Button
+            android:id="@+id/btnSpanish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_spanish" />
+
+        <Button
+            android:id="@+id/btnJapanese"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_japanese" />
+
+        <Button
+            android:id="@+id/btnChinese"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_chinese" />
+
+        <Button
+            android:id="@+id/btnDutch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_dutch" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtCelsius"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/TitleStyle"
+            android:layout_weight="1"
+            android:text="@string/title_celsius" />
+
+        <SeekBar
+            android:id="@+id/skbCelsius"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/edtCelsius"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="@string/hint_celsius" />
+
+        <TextView
+            android:id="@+id/txtFahrenheit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/TitleStyle"
+            android:layout_weight="1"
+            android:text="@string/title_fahrenheit" />
+
+        <SeekBar
+            android:id="@+id/skbFahrenheit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/edtFahrenheit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="@string/hint_fahrenheit" />
+
+        <TextView
+            android:id="@+id/txtHint"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/MsgStyle"
+            android:layout_weight="1" />
+    </LinearLayout>
+</RelativeLayout>

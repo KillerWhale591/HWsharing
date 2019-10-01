@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FlingingMoney</string>
+    <string name="hint_euro">Enter the Euro value</string>
+    <string name="text_dollar">Dollar:</string>
+    <string name="text_yen">Yen:</string>
+    <string name="text_rupee">Rupee:</string>
+    <string name="text_rmb">RMB:</string>
+</resources>

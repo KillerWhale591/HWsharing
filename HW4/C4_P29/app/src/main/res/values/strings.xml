@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">C4_P29</string>
+    <string name="text_choose">Choose the language</string>
+    <string name="text_translate">Translate</string>
+    <string name="text_french">French</string>
+    <string name="text_spanish">Spanish</string>
+    <string name="text_japanese">Japanese</string>
+    <string name="text_chinese">Chinese</string>
+    <string name="text_dutch">Dutch</string>
+    <string name="hello_english">Hello World</string>
+    <string name="hello_french">Bonjour le monde</string>
+    <string name="hello_spanish">Hola Mundo</string>
+    <string name="hello_japanese">こんにちは世界</string>
+    <string name="hello_chinese">世界你好</string>
+    <string name="hello_dutch">Hallo Wereld</string>
+</resources>

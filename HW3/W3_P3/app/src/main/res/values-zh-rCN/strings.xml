@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hint_cold">冷!</string>
+    <string name="hint_nice">舒服!</string>
+    <string name="hint_hot">热!</string>
+</resources>

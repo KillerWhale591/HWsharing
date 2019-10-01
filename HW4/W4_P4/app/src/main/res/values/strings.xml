@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">W4_P4</string>
+    <string name="text_home">Welcome home</string>
+    <string name="text_north">Welcome to north side</string>
+    <string name="text_south">Welcome to south side</string>
+    <string name="text_west">Welcome to west side</string>
+    <string name="text_east">Welcome to east side</string>
+</resources>

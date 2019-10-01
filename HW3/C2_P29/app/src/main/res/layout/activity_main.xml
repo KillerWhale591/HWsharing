@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/TitleStyle"
+                android:layout_weight="1"
+                android:text="@string/text_menu" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/TitleStyle"
+                android:layout_weight="1"
+                android:text="@string/text_number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/MenuItemStyle"
+                android:layout_weight="1"
+                android:text="@string/item_cheeseburger" />
+
+            <EditText
+                android:id="@+id/edtBurger"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/ServingNumberStyle"
+                android:layout_weight="1"
+                android:inputType="numberDecimal"
+                android:hint="@string/hint_number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/MenuItemStyle"
+                android:layout_weight="1"
+                android:text="@string/item_taco" />
+
+            <EditText
+                android:id="@+id/edtTaco"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/ServingNumberStyle"
+                android:layout_weight="1"
+                android:inputType="numberDecimal"
+                android:hint="@string/hint_number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/MenuItemStyle"
+                android:layout_weight="1"
+                android:text="@string/item_nachos" />
+
+            <EditText
+                android:id="@+id/edtNachos"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/ServingNumberStyle"
+                android:layout_weight="1"
+                android:inputType="numberDecimal"
+                android:hint="@string/hint_number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/MenuItemStyle"
+                android:layout_weight="1"
+                android:text="@string/item_coke" />
+
+            <EditText
+                android:id="@+id/edtCoke"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/ServingNumberStyle"
+                android:layout_weight="1"
+                android:inputType="numberDecimal"
+                android:hint="@string/hint_number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/CaloriesStyle"
+                android:layout_weight="1"
+                android:text="@string/text_calories" />
+
+            <TextView
+                android:id="@+id/txtCalories"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/CaloriesStyle"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

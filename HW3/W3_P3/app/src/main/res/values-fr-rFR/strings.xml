@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hint_cold">Il fait si froid!</string>
+    <string name="hint_nice">Belle journée!</string>
+    <string name="hint_hot">C\'est tellement chaud!</string>
+</resources>

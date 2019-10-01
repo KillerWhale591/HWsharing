@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TemperatureConverter</string>
+    <string name="title_celsius">Celsius</string>
+    <string name="hint_celsius">Enter Celsius</string>
+    <string name="title_fahrenheit">Fahrenheit</string>
+    <string name="hint_fahrenheit">Enter Fahrenheit</string>
+    <string name="hint_cold">It\'s so cold!</string>
+    <string name="hint_nice">Nice day!</string>
+    <string name="hint_hot">It\'s so hot!</string>
+</resources>

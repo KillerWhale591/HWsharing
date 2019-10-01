@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">C2_P29</string>
+    <string name="text_menu">Menu</string>
+    <string name="text_number">Number</string>
+    <string name="hint_number">Number of servings</string>
+    <string name="item_cheeseburger">Cheeseburger</string>
+    <string name="item_taco">Taco</string>
+    <string name="item_nachos">Nachos</string>
+    <string name="item_coke">Diet Coke</string>
+    <string name="text_calories">Calories:</string>
+</resources>
