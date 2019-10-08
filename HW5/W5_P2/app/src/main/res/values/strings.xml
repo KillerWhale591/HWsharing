@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ImageRating</string>
+    <string name="text_left">&lt;&lt; left</string>
+    <string name="text_right">right &gt;&gt;</string>
+</resources>

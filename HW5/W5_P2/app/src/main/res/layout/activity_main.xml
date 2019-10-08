@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/control"
+            style="@style/FragmentMargin"
+            android:layout_weight="1"
+            android:name="com.zeyufu.imagerating.ControlFragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+        <fragment
+            android:id="@+id/rating"
+            style="@style/FragmentMargin"
+            android:layout_weight="5"
+            android:name="com.zeyufu.imagerating.RatingFragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+    </LinearLayout>
+</RelativeLayout>
