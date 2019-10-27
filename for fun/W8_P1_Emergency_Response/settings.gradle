@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='W8_P1_Emergency_Response'
