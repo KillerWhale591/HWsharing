@@ -11,6 +11,7 @@ import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.location.Location;
 import android.net.Uri;
+import android.os.Handler;
 import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     private final static String TAG = "Tag";
     private LocationRequest locationRequest;
     private LocationCallback locationCallback;
+    String message;
     String phoneNum;
     String TextNum;
     ImageButton btnPhone;
@@ -50,6 +52,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     float mAccLast;
     private FusedLocationProviderClient FLPC;
 
+    Handler handler = new Handler();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,7 +67,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
         locationRequest = LocationRequest.create();
         locationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
-        locationRequest.setInterval(10 * 1000);
+        locationRequest.setInterval(2 * 1000);
 
 
         locationCallback = new LocationCallback() {
@@ -90,7 +93,6 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         mAcc = 0.00f;
         mAccCur = SensorManager.GRAVITY_EARTH;
         mAccLast = SensorManager.GRAVITY_EARTH;
-        getLocation();
         btnPhone.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -142,19 +144,25 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                 != PackageManager.PERMISSION_GRANTED){
             Log.d(TAG, "getLocation: failed");
         return;
-    }
+        }
+        FLPC.requestLocationUpdates(locationRequest, locationCallback, null);
         FLPC.getLastLocation().addOnSuccessListener(this, new OnSuccessListener<Location>() {
             @Override
             public void onSuccess(Location location) {
-                Log.d(TAG, "onSuccess: location" + location);
+                Log.i(TAG, "onSuccess: location" + location);
                 if(location != null){
                     latitude = String.valueOf(location.getLatitude());
-                    Log.d(TAG, "onSuccess: " + latitude);
+                    Log.i(TAG, "onSuccess: " + latitude);
                     longtitude = String.valueOf(location.getLongitude());
-                    Log.d(TAG, "onSuccess: " + longtitude);
-
-                }else {
-                    FLPC.requestLocationUpdates(locationRequest, locationCallback, null);
+                    Log.i(TAG, "onSuccess: " + longtitude);
+                    message = "**THIS IS ONLY A TEST** My GPS Location is";
+                    if (latitude != null && longtitude != null) {
+                        message = message + " LAT: " + latitude + " Long: " + longtitude;
+                    }
+                    SmsManager sms = SmsManager.getDefault();
+                    sms.sendTextMessage(TextNum, null, message, null, null);
+                    Log.i(TAG, "text: " + latitude + " long: " + longtitude);
+                    Toast.makeText(getApplicationContext(), "SMS sent.", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -199,20 +207,11 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     }
     private void text(){
         try {
-
-                String message = "**THIS IS ONLY A TEST** My GPS Location is";
-                if (latitude != null && longtitude != null) {
-                    message = message + " LAT: " + latitude + " Long: " + longtitude;
-                }
-            SmsManager sms = SmsManager.getDefault();
-            sms.sendTextMessage(TextNum, null, message, null, null);
-            Log.d(TAG, "text: " + latitude + " long: " + longtitude);
-            Toast.makeText(getApplicationContext(), "SMS sent.", Toast.LENGTH_SHORT).show();
+            getLocation();
 
         }catch (Exception e){
             e.printStackTrace();
             Toast.makeText(getApplicationContext(), "SMS failed.", Toast.LENGTH_SHORT).show();
-
         }
     }
 
