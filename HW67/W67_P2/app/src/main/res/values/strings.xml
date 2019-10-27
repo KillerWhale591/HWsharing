@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">W67_P2</string>
+    <string name="btn_first">First</string>
+    <string name="btn_second">Second</string>
+    <string name="caption_first">Great OS.</string>
+    <string name="caption_second">Not that good.</string>
+</resources>

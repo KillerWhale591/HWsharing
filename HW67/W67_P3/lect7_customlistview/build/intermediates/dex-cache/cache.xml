@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Transfer\Dropbox\AndroidStudio\Core\Lect7_CustomListView\Lect7_CustomListView\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Transfer\Dropbox\AndroidStudio\Core\Lect7_CustomListView\Lect7_CustomListView\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_3aebadabbc18aec07de5adb7b45597230b4e504d.jar" />
+    </item>
+    <item
+        jar="C:\Transfer\Dropbox\AndroidStudio\Core\Lect7_CustomListView\Lect7_CustomListView\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Transfer\Dropbox\AndroidStudio\Core\Lect7_CustomListView\Lect7_CustomListView\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_ae0582f3de6fcb554796b9f39ab8452613689559.jar" />
+    </item>
+    <item
+        jar="C:\Transfer\Dropbox\AndroidStudio\Core\Lect7_CustomListView\Lect7_CustomListView\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Transfer\Dropbox\AndroidStudio\Core\Lect7_CustomListView\Lect7_CustomListView\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_e4ae92a714583ea4debee43ee31a05db07316172.jar" />
+    </item>
+    <item
+        jar="C:\Transfer\Dropbox\AndroidStudio\Core\Lect7_CustomListView\Lect7_CustomListView\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Transfer\Dropbox\AndroidStudio\Core\Lect7_CustomListView\Lect7_CustomListView\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_2bd446eff22d166a684dd00bf0b4b7479415dfbb.jar" />
+    </item>
+    <item
+        jar="C:\Transfer\Dropbox\AndroidStudio\Core\Lect7_CustomListView\Lect7_CustomListView\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Transfer\Dropbox\AndroidStudio\Core\Lect7_CustomListView\Lect7_CustomListView\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_93562ca4c894a172bb4f73c8b77829acc1b8d3f0.jar" />
+    </item>
+    <item
+        jar="C:\Users\sse\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Transfer\Dropbox\AndroidStudio\Core\Lect7_CustomListView\Lect7_CustomListView\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_2cd9b872be9b4b2a9634a9d336f5cac743224a57.jar" />
+    </item>
+    <item
+        jar="C:\Transfer\Dropbox\AndroidStudio\Core\Lect7_CustomListView\Lect7_CustomListView\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Transfer\Dropbox\AndroidStudio\Core\Lect7_CustomListView\Lect7_CustomListView\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_d7319a2ae86401d1270b460ad9aec1bbd99d5956.jar" />
+    </item>
+    <item
+        jar="C:\Transfer\Dropbox\AndroidStudio\Core\Lect7_CustomListView\Lect7_CustomListView\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Transfer\Dropbox\AndroidStudio\Core\Lect7_CustomListView\Lect7_CustomListView\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_3f7b4959415ffb1d778c9fad18221a3dfd2e8aba.jar" />
+    </item>
+    <item
+        jar="C:\Transfer\Dropbox\AndroidStudio\Core\Lect7_CustomListView\Lect7_CustomListView\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Transfer\Dropbox\AndroidStudio\Core\Lect7_CustomListView\Lect7_CustomListView\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_51de546ce79f669c16ff1512781c6aee0f439965.jar" />
+    </item>
+    <item
+        jar="C:\Transfer\Dropbox\AndroidStudio\Core\Lect7_CustomListView\Lect7_CustomListView\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Transfer\Dropbox\AndroidStudio\Core\Lect7_CustomListView\Lect7_CustomListView\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_dd8e40b8a981623719c89eaa438d161ae29b6be7.jar" />
+    </item>
+    <item
+        jar="C:\Transfer\Dropbox\AndroidStudio\Core\Lect7_CustomListView\Lect7_CustomListView\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Transfer\Dropbox\AndroidStudio\Core\Lect7_CustomListView\Lect7_CustomListView\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_dc3149c7455a18b93171d6e6c3b20b89d1aae561.jar" />
+    </item>
+    <item
+        jar="C:\Transfer\Dropbox\AndroidStudio\Core\Lect7_CustomListView\Lect7_CustomListView\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Transfer\Dropbox\AndroidStudio\Core\Lect7_CustomListView\Lect7_CustomListView\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_139a4f803ac0f6b2f6bb2b2ba5fc76e9b288968e.jar" />
+    </item>
+    <item
+        jar="C:\Transfer\Dropbox\AndroidStudio\Core\Lect7_CustomListView\Lect7_CustomListView\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Transfer\Dropbox\AndroidStudio\Core\Lect7_CustomListView\Lect7_CustomListView\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_136e5567f9a60f805cda84a6d0acfa198ea2881a.jar" />
+    </item>
+    <item
+        jar="C:\Transfer\Dropbox\AndroidStudio\Core\Lect7_CustomListView\Lect7_CustomListView\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Transfer\Dropbox\AndroidStudio\Core\Lect7_CustomListView\Lect7_CustomListView\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_b8d4d00bd8ac35dce49755adecda24d6af8c1814.jar" />
+    </item>
+    <item
+        jar="C:\Transfer\Dropbox\AndroidStudio\Core\Lect7_CustomListView\Lect7_CustomListView\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Transfer\Dropbox\AndroidStudio\Core\Lect7_CustomListView\Lect7_CustomListView\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_fdab37bc74dc47366f5c9df2df6fad307c254002.jar" />
+    </item>
+
+</items>

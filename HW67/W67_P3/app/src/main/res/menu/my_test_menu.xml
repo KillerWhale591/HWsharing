@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mnu_sort_title"
+        android:title="@string/menu_one"
+        app:showAsAction="collapseActionView">
+    </item>
+
+
+    <item
+        android:id="@+id/mnu_sort_rt"
+        android:title="@string/menu_two"
+        app:showAsAction="collapseActionView">
+    </item>
+
+    <item
+        android:id="@+id/mnu_audio"
+        android:title="@string/menu_three"
+        app:showAsAction="collapseActionView">
+    </item>
+
+    <item
+        android:id="@+id/mnu_video"
+        android:title="@string/menu_four"
+        app:showAsAction="collapseActionView">
+    </item>
+
+
+
+</menu>
