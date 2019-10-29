@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TrackDistance</string>
+    <string name="btn_get_location">Get location</string>
+    <string name="text_last_pos">Last Pos: </string>
+    <string name="text_curr_pos">Curr Pos: </string>
+    <string name="text_distance">Distance: </string>
+</resources>

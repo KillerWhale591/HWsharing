@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">EmergencyResponse</string>
+    <string name="default_contact">911</string>
+    <string name="text_phone_contact">Emergency Phone Contact</string>
+    <string name="text_text_contact">Emergency Text Contact</string>
+    <string name="hint_phone_contact">Enter your phone contact</string>
+    <string name="hint_text_contact">Enter your text contact</string>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_save">Save</string>
+    <string name="title_preference">Preferences</string>
+</resources>
